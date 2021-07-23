@@ -1,0 +1,99 @@
+article {
+    background: #F2E1D9;
+    width: 100%;
+    .ourbest-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .ourbest-text {
+        width: 90%;
+        margin-left: 2rem;
+        margin-top: 4rem;
+        h1 {
+            text-transform: uppercase;
+        }
+        p {
+            margin-top: 1rem;
+            color: #010A44;
+        }
+        button {
+            outline: none;
+            border: 1px solid #FD8F5F;
+            background: #FD8F5F;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: .8rem 1.6rem;
+            margin-bottom: 3rem;
+        }
+        .b-tn{
+            outline: none;
+            border: 1px solid #FD8F5F;
+            background: #FD8F5F;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: .8rem 1.6rem;
+            margin-bottom: 3rem;
+               
+            }
+            .box-shadow {
+                box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+                transition: box-shadow 0.3s ease-in-out;
+              }
+              .box-shadow:hover {
+                box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+              }
+    }
+}
+@media only screen and (min-width:800px) {
+    article {
+        display: flex;
+        .ourbest-img img {
+            width: 50vw;
+            height: 100%;
+        }
+        .ourbest-text {
+            margin-right: 1rem;
+            button {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}

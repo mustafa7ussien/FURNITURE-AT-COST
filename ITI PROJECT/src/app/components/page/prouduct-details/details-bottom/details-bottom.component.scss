@@ -1,0 +1,105 @@
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.categories-area {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 100%;
+        background: #fff;
+        bottom: 0;
+        right: 0;
+        top: 0;
+               }
+    background: #F2E1D9;
+
+    .single-cat{
+        z-index: 1;
+        .cat-icon{
+            img{
+                margin-bottom: 26px;
+                display: block;
+            }
+        }
+        .cat-cap{
+            h5{
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 12px;
+                display: block;
+                text-transform: capitalize;
+                color: #2B2B2B;
+              
+            
+            }
+            p{
+                color: #57667e;
+                font-size: 16px;
+            
+            }
+            a{
+                color: #1c165c;
+                font-size: 16px;
+                font-weight: 600;
+                
+            }
+        }  
+    }
+}
+.mb-35{margin-bottom:35px}
+.mb-40{margin-bottom:40px}
+.buttom_area h5:hover{
+    color:#495057;
+   }
+@media(max-width:768px){
+    .last-area{
+        background: #F2E1D9;
+        width: 100%;
+    }
+    .categories-area::before{position:unset}
+}
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.text-center{
+    text-align:center!important
+  }
+  .p-description{
+     
+      font-family: "Poppins",sans-serif;
+      color: #646D77;
+      font-size: 14px;
+      line-height: 30px;
+      margin-bottom: 15px;
+      font-weight: normal;
+      line-height: 1.4;
+  }
+  @media (max-width:768px){
+      .p-description{
+          width: 90%;
+          margin-left: 5%;
+      }
+  }

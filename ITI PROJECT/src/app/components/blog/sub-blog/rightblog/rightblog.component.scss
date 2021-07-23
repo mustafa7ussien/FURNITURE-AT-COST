@@ -1,0 +1,73 @@
+.has-search .form-control { padding-left: 2.375rem;}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;}
+#search {border: 1px solid orangered;}
+#search:hover {
+    background-color: orangered;
+    color: #FFF;
+    cursor: pointer;}
+.Rdiv1 {
+    padding: 10%;
+    background-color: rgb(202, 191, 191, .1);}
+.R_div2 {
+    font-size: 100%;
+    padding: 10%;
+    background-color: rgb(202, 191, 191, .1);
+    margin-top: 10%;
+    margin-bottom: 10%;}
+.resentPost1 {
+    margin-top: 10%;
+    margin-bottom: 10%;}
+.R_div2 p:hover {
+    color: orangered;
+    cursor: pointer;}
+.resentPost1 span:first-of-type {
+    width: 40%;
+    float: left;}
+.resentPost1 span:last-of-type {
+    width: 55%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;}
+.clear {clear: both;}
+.R_div2 img {
+    width: 100%;
+    height: 70%;}
+#colspan { width: 100%;}
+#colspan:hover {
+    cursor: pointer;
+    color: orangered;}
+.resentPost1 img:hover {border-radius: 50%;}
+.R_div4 div {
+    background-color: white;
+    border: 1px solid #333;
+    color: rgb(31, 22, 22, .6);
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: start;}
+.R_div4 div:hover {
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;}
+.r_div5 img {
+    width: 100%;
+    height: 100%;}
+#btnn {
+    width: 100%;
+    height: 30px;
+    font-size: 100%;
+    border: 1px solid orangered;
+    background-color: rgb(233, 82, 27, .7);}
+#btnn:hover {
+    background-color: rgb(194, 180, 180);}
